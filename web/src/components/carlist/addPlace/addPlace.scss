@@ -1,0 +1,45 @@
+
+
+.addPlace{
+	margin-top:1.333333rem;
+	padding:0 0.506667rem;
+	li{
+		height:1.093333rem;
+		line-height: 1.093333rem;
+		border-bottom:1px solid #CCC;
+		span{
+			display:inline-block;
+			width:2.133333rem;
+		}
+		input{
+			height:0.866667rem;
+			width:6.613333rem;
+			border:0 none;
+			outline: none;
+		}
+	}
+	li:nth-child(4){
+			height:1.866667rem;
+			line-height: 0;
+		textarea{
+			vertical-align: top;
+			margin-top: 0.106667rem;
+			height:1.666667rem;
+			width:6.466667rem;
+			border:0 none;
+			outline:none;
+		}
+		span{
+			padding-top:0.266667rem;
+			vertical-align: top;
+		}
+	}
+	li:nth-child(5){
+		span{
+			width:3.0rem;
+		}
+		input{
+			width:5.866667rem;
+		}
+	}
+}

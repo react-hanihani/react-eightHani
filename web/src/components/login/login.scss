@@ -1,0 +1,208 @@
+body {
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     width: 100%;
+     margin: 0 auto;
+}
+ input[type="button"], input[type="submit"], input[type="reset"] {
+     -webkit-appearance: none;
+}
+ .loginLogo{
+     text-align: center;
+}
+ input::-webkit-input-placeholder {
+     color:#888;
+}
+ .checkboxedImg{
+     display: inline-block;
+}
+ .xieyi{
+     padding-top: 0.133rem;
+}
+ .loginMain {
+     padding: 0.266rem 0.2rem 0rem;
+}
+ .loginLogo{
+     width: 30%;
+     margin: 0 auto;
+}
+ .loginMain .gotohome{
+     color: #f1a185;
+     text-align: right;
+     margin-right: 0.2rem;
+}
+ .loginMain .gotohome i{
+     width: 1.066rem;
+     height: 1.066rem;
+     display: inline-block;
+     font-size: 0.8rem;
+}
+ .loginMain .item {
+     width: 100%;
+     position: relative;
+}
+ .txt-username {
+     padding-left: 0.2rem;
+}
+ .loginMain .item-username{
+     padding-bottom: 0.0266rem;
+}
+ .loginMain .item .txt-input {
+     width: 100%;
+     height: 1.173rem;
+     line-height: normal;
+     padding: 0rem;
+     border:none;
+     background: #efefef none repeat scroll 0% 0%;
+     font-size: 0.4266rem;
+     color: #252525;
+     padding-left:0.4rem;
+}
+ .loginMain .item .txt-input01{
+     width: 70%;
+     height: 1.1733rem;
+     line-height: normal;
+     padding: 0rem;
+     border:none;
+     background: #efefef none repeat scroll 0% 0%;
+     font-size: 0.4266rem;
+     color: #252525;
+     padding-left:0.4rem;
+}
+ .loginMain .item .btn-retransmit{
+     float: right;
+     overflow: hidden;
+     height: 1.173rem;
+     border: 1px solid #f15353;
+     border-radius: 0.08rem;
+     background: #fff;
+     line-height: 1.173rem;
+     text-align: center;
+     cursor: pointer;
+     font-size: 0.32rem;
+     color: #f15353;
+}
+ .loginMain .item .btn-retransmit-disabled{
+     box-shadow: none;
+     border: 1px solid #f1a199;
+     background: #f1a199;
+     cursor: default;
+     color: #fff;
+     padding:0 0.133rem;
+}
+ .loginMain .item .btn-retransmit-disabled01{
+     box-shadow: none;
+     border: 1px solid #ccc;
+     background: #ccc;
+     cursor: default;
+     color: #000;
+}
+ .loginMain .item-vcode{
+     display:flex;
+}
+ .loginMain .item-vcode .vcode{
+     flex:1;
+}
+ a, button, input {
+     outline: 0rem none;
+     text-decoration: none;
+}
+ a:link{
+     text-decoration: none;
+}
+ input {
+     box-sizing: border-box;
+}
+ .loginMain .item-btns{
+     text-align:center;
+     padding-top:10%;
+}
+ .loginMain .item-btns .btn-login, .loginMain .item-btns .btn-next , .loginMain .item-btns .btn-register {
+     display: inline-block;
+     width: 90%;
+     height: 1.066rem;
+     border-radius: 0.32rem;
+     background: #f1a199 none repeat scroll 0% 0%;
+     text-decoration: none;
+     line-height: 1.0133rem;
+     text-align: center;
+     font-size: 0.4533rem;
+     color: #FFF;
+     margin:0 auto;
+}
+ .loginMain .item-btns .btn-register{
+     background: #fff;
+     border: 1px solid #f1a199;
+     color:#f1a199;
+}
+ .loginMain .item-btns.item-register{
+     padding-top: 0.26rem;
+}
+ #errmsg {
+     color: red;
+     width:100%;
+     margin: 0.06rem auto;
+     text-align: center;
+     height: 0.533rem;
+}
+ #errmsg .err-msg{
+     color: red;
+     width:100%;
+     text-align: center;
+     height: 0.4rem;
+     margin: 0.066rem;
+}
+ .item-login-option{
+     text-align:center;
+     padding-top:15%;
+}
+ .item-login-option span a{
+     padding:0 2%;
+     color:#2a5297;
+}
+ .inputs {
+     background:#efefef;
+     padding:0.266rem;
+     margin:5% 0;
+     border-radius:0.266rem;
+}
+ .inputs input{
+     border:0;
+     background:transparent;
+     width:100%;
+     height:0.32rem;
+     line-height:0.1866rem;
+     font-size:0.1866rem;
+}
+ .inputs input::-webkit-input-placeholder {
+     color:#888;
+}
+ .inputs .fp{
+     display:flex;
+}
+ .inputs .fp input{
+     flex:1;
+}
+ .inputs .fp span{
+     border-left:#ddd solid 0.013rem;
+}
+ .inputs .fp span .text{
+     color:#f25454;
+}
+ .login{
+     padding-top:10%;
+     text-align:center;
+}
+ .register{
+     color:#555;
+     text-align:center;
+     padding-top:10%;
+}
+ .hanilogo{
+     text-align:center;
+     padding:10% 0;
+}
+ .hanilogo img{
+     width:2.346rem;
+     height:0.266rem;
+}
+ 

@@ -1,0 +1,23 @@
+.everySearch{
+    height: 1.466rem;
+    line-height: 1.466rem;
+    font-size: 0.32rem;
+    padding-left:0.266rem ;
+    position: relative;
+    color: #353535;
+    .trash{
+        position: absolute;
+        right:0.366rem;
+        font-size: 0.366rem;
+    }
+}
+.searchContent{
+    padding-left: 0.3rem;
+    button{
+        height: 0.933rem;
+        padding-left: 0.293rem;
+        padding-right:0.346rem;
+        margin-right: 0.266rem;
+        margin-bottom: 0.333rem;
+    }
+}

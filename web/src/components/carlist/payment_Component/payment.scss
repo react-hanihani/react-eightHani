@@ -1,0 +1,225 @@
+
+// 清除引入组件的某些不要的样式
+// #car_title #shop_checkbox{
+// 	display:none;
+// }
+
+// #car_goods #goods_content #shop_checkbox{
+// 	display:none;
+// }
+
+// #car_goods #goods_content{
+// 	#dele_icon{
+// 		display:none;
+// 	}
+	
+// }
+
+// #car_goods #goods_content #good_name #add_del{
+// 	#add_count{
+// 		display:none;
+// 	}
+// }
+
+// #goods_content{
+// 	padding:0 0.266667rem;
+// }
+
+
+
+
+
+
+.payment_top{
+	margin-top:1.333333rem;
+	height:1.853333rem;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+
+	span:nth-child(2){
+		display:block;
+		margin:0 auto;
+		color:#333;
+		flex:2;
+		line-height: 1.853333rem;
+		text-align: center;
+		font-size: 0.43rem;
+	}
+	span:nth-child(1){
+		color:#666;
+		flex:4;
+		padding-top:10px;
+		text-align: left;
+		text-indent: 30px;
+		font-size: 0.43rem;
+		span{
+			color:#666;
+			height:0.6rem;
+			margin:0;
+			padding:0;
+			line-height: 0.6rem;
+		}
+		span:nth-child(1){
+			ins{
+				margin-right:22px;
+				text-decoration: none;
+				color:#666;
+				font-size: 0.43rem;
+			}
+		}
+	}
+}
+
+.line_transition{
+	width:100%;
+	height:0.24rem;
+	background:#F2F1F9;
+}
+
+.payment_list{
+	padding:0 0.266667rem;
+	li{
+		display:flex;
+		flex-direction:row;
+		height:1.053333rem;
+		line-height: 1.053333rem;
+		border-bottom:0.013333rem solid #DDD;
+		span{
+			flex:1;
+		}
+		span:nth-child(2){
+			text-align: right;
+			i{
+				font-size: 0.406667rem;
+				padding:0.16667rem;
+			}
+			.iconfont{
+				font-size: 0.4rem;
+				margin-left:0.2rem;
+			}
+			.youHuiQuan{
+				width:3.306667rem;
+				height:0.56rem;
+				background:#EEE;
+				border:1px solid #ccc;
+				border-radius:0.083333rem;
+			}
+		}
+
+		input{
+			height:0.986667rem;
+			width:9.52rem;
+			margin:0 auto;
+			border:0 none;
+			outline:none;
+			border:1px solid #ccc;
+			background:#F2F1F7;
+			color:#ccc;
+			font-weight:600;
+			border-radius:0.116667rem;
+			padding-left:0.4rem;
+		}
+	}
+	li:last-child{
+		height:1.253333rem;
+		border-bottom:0 none;
+	}
+}
+
+h3{
+	display:none;
+}
+
+.list{
+
+	i{
+		font-size:0.4rem;
+	}
+	.change_button{
+		button{
+			margin-top: 0.176667rem;
+			width:1.046667rem;
+			height:0.64rem;
+			border:1px solid #ccc;
+			display:inline-block;
+			border-radius:48px;
+			outline: none;
+			.bt_garden{
+				display:inline-block;
+				height:0.613333rem;
+				width:0.613333rem;
+				border:1px solid #ccc;
+				border-radius:50%;
+				background:#EEE;
+				float:left;
+			}
+		}
+	}
+}
+
+
+.total_count{
+	height:1.066667rem;
+	line-height:1.066667rem;
+	padding:0 0.266667rem;
+	span:nth-child(2){
+		display:block;
+		float:right;
+	}
+}
+
+.payWay{
+	height:1.066667rem;
+	line-height:1.066667rem;
+	padding:0 0.266667rem;
+	span:nth-child(2){
+		display:block;
+		float:right;
+	}
+}
+
+.payWays{
+	height:1.066667rem;
+	line-height:1.066667rem;
+	padding:0 0.266667rem;
+	border-top:1px solid #ccc;
+	span:nth-child(1){
+		display:inline-block;
+		vertical-align: middle;
+		position:relative;
+		width:0.48rem;
+		height:0.48rem;
+		border:1px solid #ccc;
+		border-radius:50%;
+		b{
+			display:block;
+			width:0.266667rem;
+			height:0.266667rem;
+			background:#ccc;
+			border-radius:50%;
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%,-50%);
+		}
+	}
+	span:nth-child(2){
+		display:inline-block;
+		vertical-align: middle;
+		margin-left: 20px;
+		margin-right:20px;
+	}
+	.icon-zhifubao{
+		color:#0C9AF0;
+		font-size:0.8rem;
+
+	}
+	.icon-weixinzhifu{
+		font-size: 0.72rem;
+		color:#00C702;
+	}
+}
+.payment_good_list{
+	margin-bottom:1.066667rem;
+}
